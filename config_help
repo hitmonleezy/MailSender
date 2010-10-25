@@ -1,0 +1,13 @@
+usage: config [hostname] [port] [authentication]
+
+Parameters must be specified in respective order,
+with default values set for unspecified values.
+(e.g. "config [hostname] [port]" is valid, where
+"config [hostname] [authentication]" is not.)
+
+Default:
+host = mailhost.cecs.pdx.edu,
+port = 25,
+authentication = 0
+
+*Authentication not supported at this time.
